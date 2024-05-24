@@ -1,0 +1,92 @@
+:root {
+    --secondary-color: hsl(209, 23%, 22%); /* Blue */
+    --primary-color: hsl(207, 26%, 17%); /* Green */
+    --tertiary-color: #e74c3c; /* Red */
+    --quaternary-color: #f1c40f; /* Yellow */
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: var(--primary-color);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    background-color: var(--secondary-color);
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* width: 90%; */
+    
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    height: 2.2rem;
+    /* width: 90%; */
+    padding: 35px;
+}
+
+#searchCountry {
+    background-color: var(--secondary-color);
+    color: rgba(255, 255, 255, 0.835);
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+}
+
+#countryCards1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    color: white;
+    /* background-color: var(--secondary-color); */
+}
+
+#countryCards2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    color: white;
+    /* background-color: var(--secondary-color); */
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    font-size: 0.8rem;
+    gap: 0px;
+    width: 15rem;
+}
+
+.country p{
+    padding-left: 10px;
+    line-height: 0.8;
+}
+
+#filterMenu {
+    background-color: var(--secondary-color);
+    font-size: 0.8rem;
+    color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+#filterMenu option{
+    padding: 3px;
+}
+
+.img {
+    object-fit: cover;
+    width: 15rem;
+}
