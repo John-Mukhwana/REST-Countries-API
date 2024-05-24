@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 35px;
-    color: white;
+    color: rgb(255, 255, 255);
     /* background-color: var(--secondary-color); */
 }
 
