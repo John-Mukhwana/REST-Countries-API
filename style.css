@@ -89,9 +89,9 @@ main{
 }
 
 main .container{
-    /* border: 2px solid red; */
+   
     box-shadow: 1px 1px 4px black;
-    /* padding: 10px; */
+
     height: max-content;
     width: max-content;
     border-radius: 8px;
